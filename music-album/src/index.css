@@ -74,7 +74,13 @@
 }
 
 @media (max-width: 768px) {
-  .card {
+  .container {
+    height: max-content;
+  }
+  .albums {
+    height: max-content;
+  }
+  .album {
     float: none;
     margin: 5%;
     width: 90%;
