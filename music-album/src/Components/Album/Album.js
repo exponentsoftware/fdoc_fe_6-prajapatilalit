@@ -4,9 +4,9 @@ const Album = (props) => {
   return (
     <>
       <div className="album">
-        <img src={props.album_cover} alt="Album-cover" className="album_img" />
+        <img src={props.albumCover} alt="Album-cover" className="album_img" />
         <div className="album_info">
-          <p>{props.album_title}</p>
+          <p>{props.albumTitle}</p>
           <span className="album_category">{props.artist}</span>
         </div>
       </div>
